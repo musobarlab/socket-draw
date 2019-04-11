@@ -1,5 +1,7 @@
 ## Membangun Realtime Canvas Drawing Dengan Go, Websocket dan P5.js
 
+### by: https://github.com/wuriyanto48
+
 <p align="center">
   <img width="620" height="400" src="./assets/example.png">
 </p>
