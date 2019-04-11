@@ -131,7 +131,7 @@ type Client struct {
 }
 ```
 
-<p>Kita akan bahas satu persatu properti dari <b>struct Client</b> di atas. <b>ID</b> denga tipe <b>string</b> ini nantinya akan kita gunakan sebagai unik id untuk masing-masing <b>client</b> yang terkoneksi dengan <b>server</b> kita. Properti <b>ID</b> kita dapatkan dari <b>HTTP request header</b> dengan <b>key Sec-Websocket-Key</b>. <b>client</b> atau <b>browser</b> akan mengirimkan <b>key</b> tersebut setelah koneksi di <b>upgrade</b> dari protokol <b>HTTP</b> ke <b>websocket</b>.</p>
+<p>Kita akan bahas satu persatu properti dari <b>struct Client</b> di atas. <b>ID</b> dengan tipe <b>string</b> ini nantinya akan kita gunakan sebagai unik id untuk masing-masing <b>client</b> yang terkoneksi dengan <b>server</b> kita. Properti <b>ID</b> kita dapatkan dari <b>HTTP request header</b> dengan <b>key Sec-Websocket-Key</b>. <b>client</b> atau <b>browser</b> akan mengirimkan <b>key</b> tersebut setelah koneksi di <b>upgrade</b> dari protokol <b>HTTP</b> ke <b>websocket</b>.</p>
 
 <p>Properti <b>Conn</b> dengan tipe <b>*websocket.Conn</b> adalah koneksi dari <b>websocket</b> itu sendiri. Karena setiap <b>client</b> memiliki koneksinya yang unik untuk setiap masing-masing dari mereka.</p>
 
